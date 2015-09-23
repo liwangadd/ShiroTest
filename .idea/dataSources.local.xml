@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - shiro@localhost" uuid="dce94fef-d8cc-4766-a0a1-33058a4dab4c">
+      <secret-storage>memory</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>shiro.*</schema-pattern>
+      <default-schemas>shiro.*</default-schemas>
+    </data-source>
+  </component>
+</project>
