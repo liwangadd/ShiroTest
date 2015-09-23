@@ -9,6 +9,9 @@
         <module>chapter1</module>
         <module>Chapter</module>
         <module>Chapter2</module>
+        <module>Chapter3</module>
+        <module>Chapter4</module>
+        <module>Chapter5</module>
     </modules>
     <name>ShiroTest Maven Webapp</name>
     <url>http://maven.apache.org</url>
