@@ -28,6 +28,10 @@
         <module name="Chapter3" />
         <module name="Chapter4" />
         <module name="Chapter5" />
+        <module name="Chapter6" />
+        <module name="Chapter7" />
+        <module name="Chapter8" />
+        <module name="Chapter9" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -36,6 +40,10 @@
       <module name="Chapter3" target="1.5" />
       <module name="Chapter4" target="1.5" />
       <module name="Chapter5" target="1.5" />
+      <module name="Chapter6" target="1.5" />
+      <module name="Chapter7" target="1.5" />
+      <module name="Chapter8" target="1.5" />
+      <module name="Chapter9" target="1.8" />
       <module name="ShiroTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
