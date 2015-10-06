@@ -2,95 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cacaeef-af27-4b0c-9609-c33d9232dd46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter3/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter4/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter7/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter8/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter9/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/AuthorizerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/BaseTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/PermissionTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/RoleTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/permission/BitAndWildPermissionResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/permission/BitPermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/permission/MyRolePermissionResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/com/shiro/test/realm/MyRealm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/resources/shiro-authorizer.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/resources/shiro-jdbc-authorizer.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/resources/shiro-permission.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/resources/shiro-role.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/shiro-authorizer.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/shiro-jdbc-authorizer.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/shiro-permission.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter2/target/test-classes/shiro-role.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/AuthenticatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/LoginLogoutTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/authenticator/strategy/AtLeastTwoAuthenticatorStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/authenticator/strategy/OnlyOneAuthenticatorStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/realm/MyRealm1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/realm/MyRealm2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/realm/MyRealm3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/com/shiro/test/realm/MyRealm4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-authenticator-all-fail.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-authenticator-all-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-authenticator-atLeastOne-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-authenticator-atLeastTwo-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-authenticator-first-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-authenticator-onlyone-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-jdbc-realm.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-multi-realm.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro-realm.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/resources/shiro.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-authenticator-all-fail.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-authenticator-all-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-authenticator-atLeastOne-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-authenticator-atLeastTwo-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-authenticator-first-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-authenticator-onlyone-success.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-jdbc-realm.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-multi-realm.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro-realm.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/target/test-classes/shiro.ini" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/authenticator/strategy/AtLeastTwoAuthenticatorStrategy.java" afterPath="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/authenticator/strategy/AtLeastTwoAuthenticatorStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/AuthenticatorTest.java" afterPath="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/AuthenticatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter2/src/test/com/shiro/test/AuthorizerTest.java" afterPath="$PROJECT_DIR$/Chapter2/src/test/com/shiro/test/AuthorizerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter2/Chapter2.iml" afterPath="$PROJECT_DIR$/Chapter2/Chapter2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter3/Chapter3.iml" afterPath="$PROJECT_DIR$/Chapter3/Chapter3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter4/Chapter4.iml" afterPath="$PROJECT_DIR$/Chapter4/Chapter4.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/test/BaseTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/Chapter10.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter10_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter10_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/org/apache/shiro/cache/ehcache/EhCacheManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/JdbcTemplateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/session/MySessionDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PasswordHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/Permission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/PermissionDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/RolePermssion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/SerializableUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/realm/UserRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/test/UserRealmTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/resources/password-ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/resources/shiro-ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/src/main/resources/shiro.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/Chapter7.iml" afterPath="$PROJECT_DIR$/Chapter7/Chapter7.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter8/Chapter8.iml" afterPath="$PROJECT_DIR$/Chapter8/Chapter8.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter4/src/test/com/shiro/test/CodecAndCryptoTest.java" afterPath="$PROJECT_DIR$/Chapter4/src/test/com/shiro/test/CodecAndCryptoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/MyAdviceFilter.java" afterPath="$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/MyAdviceFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter2/src/test/com/shiro/test/realm/MyRealm.java" afterPath="$PROJECT_DIR$/Chapter2/src/test/com/shiro/test/realm/MyRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm1.java" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter4/src/test/com/shiro/test/realm/MyRealm2.java" afterPath="$PROJECT_DIR$/Chapter4/src/test/com/shiro/test/realm/MyRealm2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm2.java" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm3.java" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/authenticator/strategy/OnlyOneAuthenticatorStrategy.java" afterPath="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/authenticator/strategy/OnlyOneAuthenticatorStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter2/src/test/com/shiro/test/PermissionTest.java" afterPath="$PROJECT_DIR$/Chapter2/src/test/com/shiro/test/PermissionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShiroTest.iml" afterPath="$PROJECT_DIR$/ShiroTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/chapter1.iml" afterPath="$PROJECT_DIR$/chapter1/chapter1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllPermissions.tag" afterPath="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllPermissions.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllRoles.tag" afterPath="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllRoles.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAnyPermissions.tag" afterPath="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAnyPermissions.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter8/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/Chapter8/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/src/test/resources/shiro-authenticator-atLeastTwo-success.ini" afterPath="$PROJECT_DIR$/chapter1/src/test/resources/shiro-authenticator-atLeastTwo-success.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/src/test/resources/shiro-authenticator-onlyone-success.ini" afterPath="$PROJECT_DIR$/chapter1/src/test/resources/shiro-authenticator-onlyone-success.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter2/src/test/resources/shiro-permission.ini" afterPath="$PROJECT_DIR$/Chapter2/src/test/resources/shiro-permission.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/src/main/resources/shiro.ini" afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/shiro.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShiroTest.iws" />
@@ -108,6 +62,7 @@
     <ignored path="$PROJECT_DIR$/Chapter7/target/" />
     <ignored path="$PROJECT_DIR$/Chapter8/target/" />
     <ignored path="$PROJECT_DIR$/Chapter9/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter10/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,15 +85,11 @@
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shiro@localhost" />
+        <option name="myItemId" value="MySQL - Shiro@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="shiro" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
+        <option name="myItemId" value="Shiro" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -148,7 +99,21 @@
     <favorites_list name="ShiroTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="UserRealm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/realm/UserRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.013404826">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,31 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/hasAnyPermissions.tag" />
-        <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/hasAllPermissions.tag" />
-        <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/hasAllRoles.tag" />
-        <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/JdbcTemplateUtils.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/SerializableUtils.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/listener/MySessionListener1.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/listener/MySessionListener2.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/dao/MySessionDAO.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/scheduler/MySessionValidationScheduler.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/webapp/invalidSession.jsp" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/session/ShiroConstants.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/session/OnlineSessionFilter.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/session/IpUtils.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/session/OnlineSession.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/test/resources/shiro.ini" />
-        <option value="$PROJECT_DIR$/Chapter9/src/test/com/shiro/test/BaseTest.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/test/com/shiro/test/SessionTest.java" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/resources/shiro.ini" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/Chapter9/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/authenticator/strategy/AtLeastTwoAuthenticatorStrategy.java" />
         <option value="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/authenticator/strategy/OnlyOneAuthenticatorStrategy.java" />
         <option value="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/AuthenticatorTest.java" />
         <option value="$PROJECT_DIR$/chapter1/src/test/com/shiro/test/LoginLogoutTest.java" />
@@ -222,6 +162,31 @@
         <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllRoles.tag" />
         <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAnyPermissions.tag" />
         <option value="$PROJECT_DIR$/Chapter8/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/SerializableUtils.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/session/MySessionDao.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/resources/shiro-ehcache.xml" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/org/apache/shiro/cache/ehcache/EhcacheManager.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/org/apache/shiro/cache/ehcache/EhCacheManager.java" />
+        <option value="$PROJECT_DIR$/Chapter10/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserService.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/JdbcTemplateUtils.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/test/BaseTest.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/resources/shiro.ini" />
+        <option value="$PROJECT_DIR$/Chapter10/src/test/UserRealmTest.java" />
       </list>
     </option>
   </component>
@@ -286,6 +251,37 @@
     <option name="width" value="1442" />
     <option name="height" value="902" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -327,11 +323,219 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,17 +550,17 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service" />
+      <recent name="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity" />
+      <recent name="$PROJECT_DIR$/Chapter10" />
       <recent name="$PROJECT_DIR$/chapter1" />
       <recent name="$PROJECT_DIR$/Chapter2" />
-      <recent name="$PROJECT_DIR$/Chapter3" />
-      <recent name="$PROJECT_DIR$/Chapter4" />
-      <recent name="$PROJECT_DIR$/Chapter5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IdeaProject\ShiroTest\Chapter8\src\main\webapp\WEB-INF\tags" />
@@ -366,98 +570,15 @@
       <recent name="F:\IdeaProject\ShiroTest\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CodecAndCryptoTest.testHashService">
-    <configuration default="false" name="PrincialCollectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shiro.test.realm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.shiro.test.realm" />
-      <option name="MAIN_CLASS_NAME" value="com.shiro.test.realm.PrincialCollectionTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SessionTest.testGetSession" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shiro.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter9" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.shiro.test" />
-      <option name="MAIN_CLASS_NAME" value="com.shiro.test.SessionTest" />
-      <option name="METHOD_NAME" value="testGetSession" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CodecAndCryptoTest.testBase64" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shiro.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter4" />
+  <component name="RunManager" selected="JUnit.BaseTest.setUp">
+    <configuration default="false" name="BaseTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chapter10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.shiro.test.CodecAndCryptoTest" />
-      <option name="METHOD_NAME" value="testBase64" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CodecAndCryptoTest.testHashService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shiro.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shiro.test" />
-      <option name="MAIN_CLASS_NAME" value="com.shiro.test.CodecAndCryptoTest" />
-      <option name="METHOD_NAME" value="testHashService" />
+      <option name="MAIN_CLASS_NAME" value="BaseTest" />
+      <option name="METHOD_NAME" value="setUp" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -772,124 +893,12 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.15" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Chapter9:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ShiroTest" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2118" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="2119" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Chapter9:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat8" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PrincialCollectionTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SessionTest.testGetSession" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CodecAndCryptoTest.testBase64" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CodecAndCryptoTest.testHashService" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BaseTest.setUp" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CodecAndCryptoTest.testHashService" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CodecAndCryptoTest.testBase64" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SessionTest.testGetSession" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PrincialCollectionTest.test" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BaseTest.setUp" />
       </list>
     </recent_temporary>
   </component>
@@ -927,19 +936,21 @@
       <workItem from="1444114189954" duration="841000" />
       <workItem from="1444115068361" duration="5961000" />
       <workItem from="1444121091862" duration="538000" />
-      <workItem from="1444121641216" duration="3468000" />
+      <workItem from="1444121641216" duration="10695000" />
+      <workItem from="1444134176486" duration="842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96778000" />
+    <option name="totallyTimeSpent" value="104847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-1" width="1442" height="902" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32303733" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
@@ -950,10 +961,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46460748" sideWeight="0.4968254" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21910919" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27801725" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27070063" sideWeight="0.5054096" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283046" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28901273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -963,7 +974,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24856322" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32303733" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -992,328 +1002,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter4/src/test/resources/shiro-retryLimitHashedCredentialsMatcher.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4/Chapter4.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4/src/test/com/shiro/test/CodecAndCryptoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38069704">
-          <caret line="113" column="65" selection-start-line="113" selection-start-column="65" selection-end-line="113" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45040214">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53485256">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5067024">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/MyRealm3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/entity/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19705094">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14075068">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/entity/RolePermssion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6193029">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45040214">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/RoleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4919571">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3927613">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19705094">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/service/PasswordHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53485256">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54959786">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/shiro.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/shiro-multi-realm.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/shiro/source/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3243968">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/com/shiro/source/AuthenticatedServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22520107">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/com/shiro/source/FormFilterLoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22520107">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/com/shiro/source/unauthorizedServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22520107">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/resources/shiro-basicfilterlogin.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28150135">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/resources/shiro.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5630027">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/resources/shiro-formfilterlogin.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5911528">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/env/MyIniWebEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/MyAccessControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19705094">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/MyAdviceFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64745307">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/MyPathMatchingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19705094">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/MyOncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19705094">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/FormLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2386059">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/shiro/test/filter/AnyRolesFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/resources/shiro.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.422252">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter8/src/main/resources/shiro.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllPermissions.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0876217">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAllRoles.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116828926">
-          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter8/src/main/webapp/WEB-INF/tags/hasAnyPermissions.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3504868">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter8/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85396385">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter9/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1386,6 +1074,376 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter8/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.23030303">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.44242424">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter4/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53333336">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-ehcache/1.2.3/shiro-ehcache-1.2.3.jar!/META-INF/maven/org.apache.shiro/shiro-ehcache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8727273">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8727273">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35254693">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/RolePermssion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19705094">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/PermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30965146">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47855228">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9571046">
+          <caret line="111" column="60" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7466488">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/shiro/source/session/IpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19705094">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/password-ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.422252">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/shiro-ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9008043">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/session/MySessionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0844504">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/org/apache/shiro/cache/ehcache/EhCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43699732">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6363636">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6181818">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5090909">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5030303">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21212122">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6111111">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42424244">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39678285">
+          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dce94fef-d8cc-4766-a0a1-33058a4dab4c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a83a4d8-e389-46fc-aa71-84b3ee0be623/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a90e1313-8974-404b-81e0-af6755d5b0b8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/46aeef53/a90e1313-8974-404b-81e0-af6755d5b0b8/Shiro..sys_roles">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/46aeef53/a90e1313-8974-404b-81e0-af6755d5b0b8/Shiro..sys_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/shiro.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/test/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21179625">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1444134690925" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1444134690925" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1444134690925" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1444134690925" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1444134690925" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/JdbcTemplateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22520107">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/test/UserRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.689008">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/SerializableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6903485">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.013404826">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1440,7 +1498,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ShiroTest</last-edited>
+          <last-edited>Chapter10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

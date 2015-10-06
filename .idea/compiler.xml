@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="Chapter" />
         <module name="chapter1" />
+        <module name="Chapter10" />
         <module name="Chapter2" />
         <module name="Chapter3" />
         <module name="Chapter4" />
@@ -36,6 +37,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="chapter1" target="1.8" />
+      <module name="Chapter10" target="1.8" />
       <module name="Chapter2" target="1.8" />
       <module name="Chapter3" target="1.8" />
       <module name="Chapter4" target="1.8" />
