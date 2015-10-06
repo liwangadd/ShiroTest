@@ -13,7 +13,6 @@ import org.apache.shiro.util.ByteSource;
 import org.apache.shiro.util.SimpleByteSource;
 import org.junit.Assert;
 import org.junit.Test;
-
 import java.security.Key;
 
 /**
@@ -84,11 +83,11 @@ public class CodecAndCryptoTest {
 
     @Test
     public void testHashService() {
-        DefaultHashService hashService = new DefaultHashService(); //Ä¬ÈÏËã·¨SHA-512
+        DefaultHashService hashService = new DefaultHashService(); //é»˜è®¤ç®—æ³•SHA-512
         hashService.setHashAlgorithmName("SHA-512");
-        hashService.setPrivateSalt(new SimpleByteSource("123")); //Ë½ÑÎ£¬Ä¬ÈÏÎŞ
-        hashService.setGeneratePublicSalt(true);//ÊÇ·ñÉú³É¹«ÑÎ£¬Ä¬ÈÏfalse
-        hashService.setRandomNumberGenerator(new SecureRandomNumberGenerator());//ÓÃÓÚÉú³É¹«ÑÎ¡£Ä¬ÈÏ¾ÍÕâ¸ö
+        hashService.setPrivateSalt(new SimpleByteSource("123")); //ç§ç›ï¼Œé»˜è®¤æ— 
+        hashService.setGeneratePublicSalt(true);//æ˜¯å¦ç”Ÿæˆå…¬ç›ï¼Œé»˜è®¤false
+        hashService.setRandomNumberGenerator(new SecureRandomNumberGenerator());//ç”¨äºç”Ÿæˆå…¬ç›ã€‚é»˜è®¤å°±è¿™ä¸ª
         hashService.setHashIterations(1);
 
         HashRequest request = new HashRequest.Builder().setAlgorithmName("md5").setSource(ByteSource.Util.bytes("hello"))
@@ -125,7 +124,7 @@ public class CodecAndCryptoTest {
 
     @Test
     public void testDefaultBlockCipherService() {
-//        ¶Ô³Æ¼ÓÃÜ£¬Ê¹ÓÃJavaµÄJCA£¨javax.crypto.Cipher£©¼ÓÃÜAPI£¬³£¼ûµÄÈç 'AES', 'Blowfish'
+//        å¯¹ç§°åŠ å¯†ï¼Œä½¿ç”¨Javaçš„JCAï¼ˆjavax.crypto.Cipherï¼‰åŠ å¯†APIï¼Œå¸¸è§çš„å¦‚ 'AES', 'Blowfish'
         DefaultBlockCipherService cipherService = new DefaultBlockCipherService("aes");
         cipherService.setKeySize(128);
         Key key = cipherService.generateNewKey();

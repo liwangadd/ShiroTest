@@ -20,9 +20,9 @@ public class MyRealm2 extends AuthorizingRealm{
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
-        String username = "liu"; //用户名及salt1
+        String username = "liu"; //鐢ㄦ埛鍚嶅強salt1
         String salt2 = "0072273a5d87322163795118fdd7c45e";
-        String password = "be320beca57748ab9632c4121ccac0db"; //加密后的密码
+        String password = "be320beca57748ab9632c4121ccac0db"; //鍔犲瘑鍚庣殑瀵嗙爜
         SimpleAuthenticationInfo info=new SimpleAuthenticationInfo(username, password, getName());
         info.setCredentialsSalt(ByteSource.Util.bytes(username+salt2));
         return info;

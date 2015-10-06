@@ -8,10 +8,14 @@ import org.apache.shiro.authz.permission.WildcardPermission;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 
+import java.lang.Override;
+import java.lang.String;
+
 /**
  * Created by Nikolas on 2015/9/22.
  */
 public class MyRealm extends AuthorizingRealm {
+
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         SimpleAuthorizationInfo info=new SimpleAuthorizationInfo();
@@ -26,15 +30,15 @@ public class MyRealm extends AuthorizingRealm {
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
-        String username = (String)token.getPrincipal();  //µÃµ½ÓÃ»§Ãû
-        String password = new String((char[])token.getCredentials()); //µÃµ½ÃÜÂë
+        String username = (String)token.getPrincipal();  //å¾—åˆ°ç”¨æˆ·å
+        String password = new String((char[])token.getCredentials()); //å¾—åˆ°å¯†ç 
         if(!"zhang".equals(username)) {
-            throw new UnknownAccountException(); //Èç¹ûÓÃ»§Ãû´íÎó
+            throw new UnknownAccountException(); //å¦‚æœç”¨æˆ·åé”™è¯¯
         }
         if(!"123".equals(password)) {
-            throw new IncorrectCredentialsException(); //Èç¹ûÃÜÂë´íÎó
+            throw new IncorrectCredentialsException(); //å¦‚æœå¯†ç é”™è¯¯
         }
-        //Èç¹ûÉí·İÈÏÖ¤ÑéÖ¤³É¹¦£¬·µ»ØÒ»¸öAuthenticationInfoÊµÏÖ£»
+        //å¦‚æœèº«ä»½è®¤è¯éªŒè¯æˆåŠŸï¼Œè¿”å›ä¸€ä¸ªAuthenticationInfoå®ç°ï¼›
         return new SimpleAuthenticationInfo(username, password, getName());
     }
 }

@@ -22,15 +22,12 @@ public class PermissionDaoImpl implements PermissionDao {
         final String sql = "insert into sys_permissions (permission, description, available) values (?, ?, ?)";
         GeneratedKeyHolder holder=new GeneratedKeyHolder();
 
-        jdbcTemplate.update(new PreparedStatementCreator() {
-            @Override
-            public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
-                PreparedStatement statement=connection.prepareStatement(sql, new String[]{"id"});
-                statement.setString(1, permission.getPermission());
-                statement.setString(2, permission.getDescription());
-                statement.setBoolean(3, permission.getAvailable());
-                return statement;
-            }
+        jdbcTemplate.update(connection -> {
+            PreparedStatement statement=connection.prepareStatement(sql, new String[]{"id"});
+            statement.setString(1, permission.getPermission());
+            statement.setString(2, permission.getDescription());
+            statement.setBoolean(3, permission.getAvailable());
+            return statement;
         },holder);
         permission.setId(holder.getKey().longValue());
         return permission;

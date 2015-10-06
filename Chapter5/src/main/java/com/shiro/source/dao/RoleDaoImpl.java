@@ -21,15 +21,12 @@ public class RoleDaoImpl implements RoleDao {
         final String sql = "insert into sys_roles(role, description, available) values(?,?,?)";
 
         GeneratedKeyHolder keyHolder = new GeneratedKeyHolder();
-        jdbcTemplate.update(new PreparedStatementCreator() {
-            @Override
-            public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
-                PreparedStatement psst = connection.prepareStatement(sql, new String[] { "id" });
-                psst.setString(1, Role.getRole());
-                psst.setString(2, Role.getDescription());
-                psst.setBoolean(3, Role.getAvailable());
-                return psst;
-            }
+        jdbcTemplate.update(connection -> {
+            PreparedStatement psst = connection.prepareStatement(sql, new String[] { "id" });
+            psst.setString(1, Role.getRole());
+            psst.setString(2, Role.getDescription());
+            psst.setBoolean(3, Role.getAvailable());
+            return psst;
         }, keyHolder);
         Role.setId(keyHolder.getKey().longValue());
 

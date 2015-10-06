@@ -10,7 +10,7 @@ public class MyRealm1 implements Realm {
 
     @Override
     public String getName() {
-        return "a"; //realm name 为 “a”
+        return "a"; //realm name 为 锟斤拷a锟斤拷
     }
 
     @Override
@@ -21,8 +21,8 @@ public class MyRealm1 implements Realm {
     @Override
     public AuthenticationInfo getAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         return new SimpleAuthenticationInfo(
-                "zhang", //身份 字符串类型
-                "123",   //凭据
+                "zhang", //username
+                "123",   //password
                 getName() //Realm Name
         );
     }

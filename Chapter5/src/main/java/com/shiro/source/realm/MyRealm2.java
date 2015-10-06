@@ -9,7 +9,7 @@ import org.apache.shiro.realm.Realm;
 public class MyRealm2 implements Realm {
     @Override
     public String getName() {
-        return "b"; //realm name 为 “b”
+        return "b"; //realm name 为 锟斤拷b锟斤拷
     }
 
     @Override
@@ -20,8 +20,8 @@ public class MyRealm2 implements Realm {
     @Override
     public AuthenticationInfo getAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         return new SimpleAuthenticationInfo(
-                "zhang", //身份 字符串类型
-                "123",   //凭据
+                "zhang", //username
+                "123",   //password
                 getName() //Realm Name
         );
     }

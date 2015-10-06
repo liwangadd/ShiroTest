@@ -21,11 +21,11 @@ public class PermissionTest extends BaseTest {
     @Test(expected = UnauthorizedException.class)
     public void testCheckPermission() {
         login("classpath:shiro-permission.ini", "zhang", "123");
-        //断言拥有权限：user:create
+        //鏂█鎷ユ湁鏉冮檺锛歶ser:create
         subject().checkPermission("user:create");
-        //断言拥有权限：user:delete and user:update
+        //鏂█鎷ユ湁鏉冮檺锛歶ser:delete and user:update
         subject().checkPermissions("user:delete", "user:update");
-        //断言拥有权限：user:view 失败抛出异常
+        //鏂█鎷ユ湁鏉冮檺锛歶ser:view 澶辫触鎶涘嚭寮傚父
         subject().checkPermissions("user:view");
     }
 

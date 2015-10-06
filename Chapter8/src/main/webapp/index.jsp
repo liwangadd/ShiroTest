@@ -41,5 +41,6 @@
 <zhang:hasAllPermissions name="user:create,user:update">
     用户[<shiro:principal/>]拥有权限user:create和user:update<br/>
 </zhang:hasAllPermissions>
+
 </body>
 </html>
