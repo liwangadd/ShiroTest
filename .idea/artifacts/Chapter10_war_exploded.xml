@@ -9,7 +9,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.6" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
-          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-ehcache:1.2.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.6.RELEASE" />
@@ -22,6 +21,7 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.0.22" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-ehcache:1.2.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
