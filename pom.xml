@@ -17,6 +17,7 @@
         <module>Chapter9</module>
         <module>Chapter10</module>
         <module>Chapter11</module>
+        <module>Chapter13</module>
     </modules>
     <name>ShiroTest Maven Webapp</name>
     <url>http://maven.apache.org</url>

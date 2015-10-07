@@ -2,82 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cacaeef-af27-4b0c-9609-c33d9232dd46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/web/controller/AnnotationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/Chapter11.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter11_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter11_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter12_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter12_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/web/exception/DefaultExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/PasswordHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/entity/Permission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/dao/PermissionDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/PermissionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/PermissionServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/entity/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/dao/RoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/entity/RolePermssion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/RoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/SerializableUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/test/ShiroTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/dao/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/realm/UserRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/entity/UserRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/webapp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/spring-beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/spring-shiro-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/webapp/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/src/main/webapp/unauthorized.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter10/Chapter10.iml" afterPath="$PROJECT_DIR$/Chapter10/Chapter10.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter10_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter10_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter2/Chapter2.iml" afterPath="$PROJECT_DIR$/Chapter2/Chapter2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter2_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter3/Chapter3.iml" afterPath="$PROJECT_DIR$/Chapter3/Chapter3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter3_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter3_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter4/Chapter4.iml" afterPath="$PROJECT_DIR$/Chapter4/Chapter4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter4_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter4_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter5_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter5_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter6_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter6_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/Chapter7.iml" afterPath="$PROJECT_DIR$/Chapter7/Chapter7.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter7_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter7_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter8/Chapter8.iml" afterPath="$PROJECT_DIR$/Chapter8/Chapter8.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter8_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter8_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chapter9_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter9_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShiroTest.iml" afterPath="$PROJECT_DIR$/ShiroTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/chapter1.iml" afterPath="$PROJECT_DIR$/chapter1/chapter1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/chapter1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter1_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/Chapter13.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter13_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Chapter13_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/PasswordHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/entity/Permission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/dao/PermissionDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/dao/PermissionDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/PermissionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/PermissionServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/entity/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/dao/RoleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/entity/RolePermssion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/RoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/RoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/dao/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/realm/UserRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/entity/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/webapp/authenticated.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/webapp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/spring-beans.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/spring-shiro-web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/webapp/success.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/src/main/webapp/unauthorized.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter10/pom.xml" afterPath="$PROJECT_DIR$/Chapter10/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/pom.xml" afterPath="$PROJECT_DIR$/Chapter9/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShiroTest.iws" />
@@ -98,6 +56,7 @@
     <ignored path="$PROJECT_DIR$/Chapter10/target/" />
     <ignored path="$PROJECT_DIR$/Chapter12/target/" />
     <ignored path="$PROJECT_DIR$/Chapter11/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter13/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +93,48 @@
     <favorites_list name="ShiroTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="spring-beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/spring-beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-shiro-web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/spring-shiro-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66219836">
+              <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unauthorized.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/unauthorized.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,27 +159,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/realm/UserRealm.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/session/MySessionDao.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/resources/ehcache.xml" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/resources/shiro-ehcache.xml" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/org/apache/shiro/cache/ehcache/EhcacheManager.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/org/apache/shiro/cache/ehcache/EhCacheManager.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/UserService.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/JdbcTemplateUtils.java" />
         <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/dao/RoleDaoImpl.java" />
         <option value="$PROJECT_DIR$/Chapter10/src/test/BaseTest.java" />
         <option value="$PROJECT_DIR$/Chapter10/src/main/resources/shiro.ini" />
         <option value="$PROJECT_DIR$/Chapter10/src/test/UserRealmTest.java" />
-        <option value="$PROJECT_DIR$/Chapter12/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter10/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/java/source/dao/RoleDaoImpl.java" />
@@ -210,6 +194,22 @@
         <option value="$PROJECT_DIR$/Chapter11/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/spring-shiro-web.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/shiro/source/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/entity/RolePermssion.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/webapp/success.jsp" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/webapp/authenticated.jsp" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/webapp/unauthorized.jsp" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/resources/spring-shiro-web.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/realm/UserRealm.java" />
       </list>
     </option>
   </component>
@@ -356,7 +356,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter11" />
+              <option name="myItemId" value="Chapter13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,25 +370,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShiroTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShiroTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter11" />
+              <option name="myItemId" value="Chapter13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -414,7 +396,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter11" />
+              <option name="myItemId" value="Chapter13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -444,7 +426,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter11" />
+              <option name="myItemId" value="Chapter13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -470,7 +452,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter11" />
+              <option name="myItemId" value="Chapter13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -479,6 +461,144 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter13" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter13" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="credentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiroTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,11 +636,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter13/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Chapter13/src/main/java" />
+      <recent name="$PROJECT_DIR$/Chapter12/src/main/java/com/shiro/source" />
       <recent name="$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source" />
       <recent name="$PROJECT_DIR$/Chapter11/src/main/java" />
-      <recent name="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/service" />
-      <recent name="$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/entity" />
-      <recent name="$PROJECT_DIR$/Chapter10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IdeaProject\ShiroTest\Chapter8\src\main\webapp\WEB-INF\tags" />
@@ -837,7 +957,7 @@
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Chapter11:war exploded">
+        <artifact name="Chapter13:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -935,7 +1055,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Chapter11:war exploded" />
+          <artifact name="Chapter13:war exploded" />
         </option>
       </method>
     </configuration>
@@ -982,20 +1102,20 @@
       <workItem from="1444140579711" duration="3268000" />
       <workItem from="1444181339809" duration="6032000" />
       <workItem from="1444192898714" duration="761000" />
-      <workItem from="1444195535292" duration="2046000" />
+      <workItem from="1444195535292" duration="7771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116954000" />
+    <option name="totallyTimeSpent" value="122679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-1" width="1442" height="902" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32253087" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3217503" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
@@ -1007,10 +1127,11 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27658045" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27658045" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27070063" sideWeight="0.5054096" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283046" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28901273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1143,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24856322" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1047,128 +1167,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/46aeef53/a90e1313-8974-404b-81e0-af6755d5b0b8/Shiro..sys_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/46aeef53/a90e1313-8974-404b-81e0-af6755d5b0b8/Shiro..sys_permissions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/src/test/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21179625">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/JdbcTemplateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22520107">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/src/test/UserRealmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.689008">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/SerializableUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6903485">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/shiro/source/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35955057">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49029127">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9174757">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter8/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.45873785">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.47815534">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.61165047">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5339806">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.12135922">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.12135922">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/shiro/source/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33252427">
@@ -1215,14 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35679612">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79611653">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,26 +1357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/resources/shiro-formfilterlogin.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1689008">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.116828926">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8579088">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1423,10 +1397,168 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76209676">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/entity/RolePermssion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19705094">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9142091">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28150135">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45040214">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/credentials/RetryLimitHashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8163539">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/service/PasswordHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43699732">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/spring-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7360335">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.002793296">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029207231">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.379694">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4673157">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/authenticated.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.379694">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/webapp/unauthorized.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/shiro/source/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2680965">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/resources/shiro-formfilterlogin.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1689008">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/resources/shiro.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/spring-shiro-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66219836">
+          <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1485,12 +1617,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Chapter11</last-edited>
+          <last-edited>Spring|Chapter13</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
