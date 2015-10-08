@@ -99,6 +99,11 @@
     </bean>
 
     <bean id="sysUserFilter" class="com.shiro.source.web.shiro.SysUserFilter"/>
+    <bean id="kickoutSessionControlFilter" class="com.shiro.source.web.shiro.KickoutSessionControlFilter">
+        <property name="sessionManager" ref="sessionManager"/>
+        <property name="cacheManager" ref="cacheManager"/>
+        <property name="kickoutUrl" value="/login"/>
+    </bean>
 
     <!-- Shiro的Web过滤器 -->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
@@ -108,6 +113,7 @@
             <util:map>
                 <entry key="authc" value-ref="formAuthenticationFilter"/>
                 <entry key="sysUser" value-ref="sysUserFilter"/>
+                <entry key="kickout" value-ref="kickoutSessionControlFilter"/>
             </util:map>
         </property>
         <property name="filterChainDefinitions">
@@ -115,7 +121,7 @@
                 /login = authc
                 /logout = logout
                 /authenticated = authc
-                /** = user,sysUser
+                /** = user,sysUser,kickout
             </value>
         </property>
     </bean>
