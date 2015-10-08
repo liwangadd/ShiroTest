@@ -10,6 +10,7 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
 import org.apache.shiro.util.ThreadContext;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -44,7 +45,7 @@ public class AuthenticatorTest {
         login("classpath:shiro-authenticator-first-success.ini");
         Subject subject = SecurityUtils.getSubject();
 
-        //µÃµ½Ò»¸öÉí·İ¼¯ºÏ£¬Æä°üº¬ÁËµÚÒ»¸öRealmÑéÖ¤³É¹¦µÄÉí·İĞÅÏ¢
+        //å¾—åˆ°ä¸€ä¸ªèº«ä»½é›†åˆï¼Œå…¶åŒ…å«äº†ç¬¬ä¸€ä¸ªRealméªŒè¯æˆåŠŸçš„èº«ä»½ä¿¡æ¯
         PrincipalCollection principalCollection = subject.getPrincipals();
         Assert.assertEquals(1, principalCollection.asList().size());
     }
@@ -54,7 +55,7 @@ public class AuthenticatorTest {
         login("classpath:shiro-authenticator-atLeastTwo-success.ini");
         Subject subject = SecurityUtils.getSubject();
 
-        //µÃµ½Ò»¸öÉí·İ¼¯ºÏ£¬ÒòÎªmyRealm1ºÍmyRealm4·µ»ØµÄÉí·İÒ»ÑùËùÒÔÊä³öÊ±Ö»·µ»ØÒ»¸ö
+        //å¾—åˆ°ä¸€ä¸ªèº«ä»½é›†åˆï¼Œå› ä¸ºmyRealm1å’ŒmyRealm4è¿”å›çš„èº«ä»½ä¸€æ ·æ‰€ä»¥è¾“å‡ºæ—¶åªè¿”å›ä¸€ä¸ª
         PrincipalCollection principalCollection = subject.getPrincipals();
         Assert.assertEquals(1, principalCollection.asList().size());
     }
@@ -64,7 +65,7 @@ public class AuthenticatorTest {
         login("classpath:shiro-authenticator-onlyone-success.ini");
         Subject subject = SecurityUtils.getSubject();
 
-        //µÃµ½Ò»¸öÉí·İ¼¯ºÏ£¬ÒòÎªmyRealm1ºÍmyRealm4·µ»ØµÄÉí·İÒ»ÑùËùÒÔÊä³öÊ±Ö»·µ»ØÒ»¸ö
+        //å¾—åˆ°ä¸€ä¸ªèº«ä»½é›†åˆï¼Œå› ä¸ºmyRealm1å’ŒmyRealm4è¿”å›çš„èº«ä»½ä¸€æ ·æ‰€ä»¥è¾“å‡ºæ—¶åªè¿”å›ä¸€ä¸ª
         PrincipalCollection principalCollection = subject.getPrincipals();
         Assert.assertEquals(1, principalCollection.asList().size());
     }
@@ -78,6 +79,7 @@ public class AuthenticatorTest {
         subject.login(token);
     }
 
+    @After
     public void tearDown(){
         ThreadContext.unbindSubject();
     }

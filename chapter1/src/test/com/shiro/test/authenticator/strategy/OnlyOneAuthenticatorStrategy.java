@@ -15,12 +15,12 @@ import java.util.Collection;
 public class OnlyOneAuthenticatorStrategy extends AbstractAuthenticationStrategy {
     @Override
     public AuthenticationInfo beforeAllAttempts(Collection<? extends Realm> realms, AuthenticationToken token) throws AuthenticationException {
-        return new SimpleAuthenticationInfo();//·µ»ØÒ»¸öÈ¨ÏŞµÄÈÏÖ¤ĞÅÏ¢
+        return new SimpleAuthenticationInfo();//è¿”å›ä¸€ä¸ªæƒé™çš„è®¤è¯ä¿¡æ¯
     }
 
     @Override
     public AuthenticationInfo beforeAttempt(Realm realm, AuthenticationToken token, AuthenticationInfo aggregate) throws AuthenticationException {
-        return aggregate;//·µ»ØÖ®Ç°ºÏ²¢µÄ
+        return aggregate;//è¿”å›ä¹‹å‰åˆå¹¶çš„
     }
 
     @Override

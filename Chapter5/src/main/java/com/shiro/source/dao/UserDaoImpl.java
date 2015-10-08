@@ -27,16 +27,13 @@ public class UserDaoImpl implements UserDao {
 
         GeneratedKeyHolder holder = new GeneratedKeyHolder();
 
-        jdbcTemplate.update(new PreparedStatementCreator() {
-            @Override
-            public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
-                PreparedStatement statement = connection.prepareStatement(sql, new String[]{"id"});
-                statement.setString(1, user.getUsername());
-                statement.setString(2, user.getPassword());
-                statement.setString(3, user.getSalt());
-                statement.setBoolean(4, user.getLocked());
-                return statement;
-            }
+        jdbcTemplate.update(connection -> {
+            PreparedStatement statement = connection.prepareStatement(sql, new String[]{"id"});
+            statement.setString(1, user.getUsername());
+            statement.setString(2, user.getPassword());
+            statement.setString(3, user.getSalt());
+            statement.setBoolean(4, user.getLocked());
+            return statement;
         }, holder);
         user.setId(holder.getKey().longValue());
         return user;
@@ -104,7 +101,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public Set<String> findPermissions(String username) {
-        //TODO 此处可以优化，比如查询到role后，一起获取roleId，然后直接根据roleId获取即可
+        //TODO 锟剿达拷锟斤拷锟斤拷锟脚伙拷锟斤拷锟斤拷锟斤拷锟窖拷锟絩ole锟斤拷一锟斤拷锟饺oleId锟斤拷然锟斤拷直锟接革拷锟斤拷roleId锟斤拷取锟斤拷锟斤拷
         String sql = "select permission from sys_users u, sys_roles r, sys_permissions p, sys_users_roles ur, sys_roles_permissions rp where u.username=? and u.id=ur.user_id and r.id=ur.role_id and r.id=rp.role_id and p.id=rp.permission_id";
         return new HashSet<>(jdbcTemplate.queryForList(sql, String.class, username));
     }

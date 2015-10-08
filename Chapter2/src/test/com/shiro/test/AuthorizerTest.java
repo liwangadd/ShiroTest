@@ -13,14 +13,14 @@ public class AuthorizerTest extends BaseTest {
         login("classpath:shiro-authorizer.ini","zhang","123");
         Assert.assertTrue(subject().isPermitted("user1:update"));
         Assert.assertTrue(subject().isPermitted("user2:update"));
-        //Í¨¹ı¶ş½øÖÆÎ»µÄ·½Ê½±íÊ¾È¨ÏŞ
-        Assert.assertTrue(subject().isPermitted("+user1+2"));//ĞÂÔöÈ¨ÏŞ
-        Assert.assertTrue(subject().isPermitted("+user1+8"));//²é¿´È¨ÏŞ
-        Assert.assertTrue(subject().isPermitted("+user2+10"));//ĞÂÔö¼°²é¿´
+        //é€šè¿‡äºŒè¿›åˆ¶ä½çš„æ–¹å¼è¡¨ç¤ºæƒé™
+        Assert.assertTrue(subject().isPermitted("+user1+2"));//æ–°å¢æƒé™
+        Assert.assertTrue(subject().isPermitted("+user1+8"));//æŸ¥çœ‹æƒé™
+        Assert.assertTrue(subject().isPermitted("+user2+10"));//æ–°å¢åŠæŸ¥çœ‹
 
-        Assert.assertFalse(subject().isPermitted("+user1+4"));//Ã»ÓĞÉ¾³ıÈ¨ÏŞ
+        Assert.assertFalse(subject().isPermitted("+user1+4"));//æ²¡æœ‰åˆ é™¤æƒé™
 
-        Assert.assertTrue(subject().isPermitted("menu:view"));//Í¨¹ıMyRolePermissionResolver½âÎöµÃµ½µÄÈ¨ÏŞ
+        Assert.assertTrue(subject().isPermitted("menu:view"));//é€šè¿‡MyRolePermissionResolverè§£æå¾—åˆ°çš„æƒé™
     }
 
     @Test
@@ -28,12 +28,12 @@ public class AuthorizerTest extends BaseTest {
         login("classpath:shiro-jdbc-authorizer.ini","zhang","123");
         Assert.assertTrue(subject().isPermitted("user1:update"));
         Assert.assertTrue(subject().isPermitted("user2:update"));
-        Assert.assertTrue(subject().isPermitted("+user1+2"));//ĞÂÔöÈ¨ÏŞ
-        Assert.assertTrue(subject().isPermitted("+user1+8"));//²é¿´È¨ÏŞ
-        Assert.assertTrue(subject().isPermitted("+user2+10"));//ĞÂÔö¼°²é¿´
+        Assert.assertTrue(subject().isPermitted("+user1+2"));//æ–°å¢æƒé™
+        Assert.assertTrue(subject().isPermitted("+user1+8"));//æŸ¥çœ‹æƒé™
+        Assert.assertTrue(subject().isPermitted("+user2+10"));//æ–°å¢åŠæŸ¥çœ‹
 
-        Assert.assertFalse(subject().isPermitted("+user1+4"));//Ã»ÓĞÉ¾³ıÈ¨ÏŞ
+        Assert.assertFalse(subject().isPermitted("+user1+4"));//æ²¡æœ‰åˆ é™¤æƒé™
 
-        Assert.assertTrue(subject().isPermitted("menu:view"));//Í¨¹ıMyRolePermissionResolver½âÎöµÃµ½µÄÈ¨ÏŞ
+        Assert.assertTrue(subject().isPermitted("menu:view"));//é€šè¿‡MyRolePermissionResolverè§£æå¾—åˆ°çš„æƒé™
     }
 }

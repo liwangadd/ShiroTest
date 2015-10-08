@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.shiro"/>
+
+    <context:annotation-config/>
+
+    <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">
+        <property name="url" value="jdbc:mysql://localhost:3306/Shiro"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="randomNumberGenerator" class="org.apache.shiro.crypto.SecureRandomNumberGenerator"/>
+
+    <bean id="passwordHelper" class="com.shiro.source.service.PasswordHelper">
+        <property name="randomNumberGenerator" ref="randomNumberGenerator"/>
+        <property name="algorithName" value="md5"/>
+        <property name="hashIterations" value="2"/>
+    </bean>
+
+</beans>

@@ -1,8 +1,8 @@
 <%@ tag import="org.apache.shiro.util.StringUtils" %>
 <%@ tag import="org.apache.shiro.subject.Subject" %>
 <%@ tag import="org.apache.shiro.SecurityUtils" %>
-<%@ attribute name="name" type="java.lang.String" description="权限字符串列表" %>
-<%@ attribute name="delimiter" type="java.lang.String" description="权限字符串列表分隔符" %>
+<%@ attribute name="name" type="java.lang.String" description="name" %>
+<%@ attribute name="delimiter" type="java.lang.String" description="delimiter" %>
 <%
     if (!StringUtils.hasText(delimiter)) {
         delimiter = ",";
