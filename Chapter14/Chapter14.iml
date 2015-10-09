@@ -18,10 +18,10 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring-cache-config.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/spring-config.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/spring-mvc.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring-shiro-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-mvc-shiro.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-mvc.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-config.xml</file>
         </fileset>
       </configuration>
     </facet>
