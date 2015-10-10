@@ -1,6 +1,5 @@
 package com.shiro.source.web.shiro;
 
-import jdk.nashorn.internal.ir.RuntimeNode;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.session.Session;
